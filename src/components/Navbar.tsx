@@ -39,19 +39,19 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection("about")}
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className="text-foreground hover:text-primary transition-colors font-medium"
             >
               О нас
             </button>
             <button
               onClick={() => scrollToSection("services")}
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className="text-foreground hover:text-primary transition-colors font-medium"
             >
               Услуги
             </button>
             <button
               onClick={() => scrollToSection("testimonials")}
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className="text-foreground hover:text-primary transition-colors font-medium"
             >
               Отзывы
             </button>
@@ -75,19 +75,19 @@ const Navbar = () => {
             <div className="flex flex-col gap-4">
               <button
                 onClick={() => scrollToSection("about")}
-                className="text-left py-2 text-muted-foreground hover:text-primary transition-colors"
+                className="text-left py-2 text-foreground hover:text-primary transition-colors font-medium"
               >
                 О нас
               </button>
               <button
                 onClick={() => scrollToSection("services")}
-                className="text-left py-2 text-muted-foreground hover:text-primary transition-colors"
+                className="text-left py-2 text-foreground hover:text-primary transition-colors font-medium"
               >
                 Услуги
               </button>
               <button
                 onClick={() => scrollToSection("testimonials")}
-                className="text-left py-2 text-muted-foreground hover:text-primary transition-colors"
+                className="text-left py-2 text-foreground hover:text-primary transition-colors font-medium"
               >
                 Отзывы
               </button>
