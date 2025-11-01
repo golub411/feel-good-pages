@@ -72,9 +72,8 @@ const Hero = () => {
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
-              variant="outline"
               size="lg"
-              className="border-2 border-white text-white hover:bg-white hover:text-primary transition-all duration-300 text-lg px-8"
+              className="bg-white/10 backdrop-blur-sm border-2 border-white text-white hover:bg-white hover:text-primary transition-all duration-300 text-lg px-8"
               onClick={() => scrollToSection("about")}
             >
               Узнать больше
